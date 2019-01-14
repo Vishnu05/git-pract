@@ -1,8 +1,14 @@
 package Java.Basics;
 
+import java.util.Arrays;
+
 public class Serialization {
 
-public static void main(String args[]){
-}
+    public static void main(String args[]) {
+
+        System.out.println();
+
+        Arrays ob=new Arrays();
+    }
 
 }
