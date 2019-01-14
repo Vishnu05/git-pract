@@ -9,6 +9,9 @@ public class Serialization {
         System.out.println();
 
         Arrays ob=new Arrays();
+
+        Arrays.util();
+        dkokpk
     }
 
 }
