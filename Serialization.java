@@ -16,6 +16,8 @@ public class Serialization {
 =======
         Arrays.sort();
 >>>>>>> Stashed changes
+
+"json":"object"
     }
 
 }
