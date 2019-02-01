@@ -10,8 +10,23 @@ public class Serialization {
         System.out.println();
 
         Arrays ob=new Arrays();
+<<<<<<< HEAD
         List<?> ob=new ArrayList<String>();
         ob.add("String");
+=======
+<<<<<<< Updated upstream
+
+        Arrays.util();
+        dkokpk
+=======
+        Arrays.sort();
+>>>>>>> Stashed changes
+
+"json":"object"
+>>>>>>> dd40c3172d221fa50b0639d0c69c7c6f50de23d2
     }
+
+    serialization
+
 
 }
