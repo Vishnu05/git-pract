@@ -1,5 +1,6 @@
 package Java.Basics;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Serialization {
@@ -9,13 +10,8 @@ public class Serialization {
         System.out.println();
 
         Arrays ob=new Arrays();
-<<<<<<< Updated upstream
-
-        Arrays.util();
-        dkokpk
-=======
-        Arrays.sort();
->>>>>>> Stashed changes
+        List<?> ob=new ArrayList<String>();
+        ob.add("String");
     }
 
 }
