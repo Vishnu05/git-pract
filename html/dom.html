@@ -1,0 +1,253 @@
+<<<<<<< Updated upstream
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>DOM</title>
+    <link rel="shorcut icon" type="" href="https://pluralsight.imgix.net/paths/path-icons/javascript-36f5949a45.png"
+        sizes="20">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="/CSS/dom.css">
+</head>
+
+<body>
+
+    <!-- <img src="/images/nat.jpg">  -->
+    <p id='tmid' onclick="tm()" style="color : rgb(224, 24, 84)"> Touch me</p>
+    <div class='uil'>
+        <ul>
+            <li id='na' onclick="lii('na','Vishnu')">Name</li>
+            <li id='or' onclick="lii('or','Capgemini')">organiztion</li>
+            <li id='de' onclick="lii('de','Software Engineer')">Designation</li>
+            <li id='ex' onclick="lii('ex',1)">Experiance</li>
+        </ul>
+    </div>
+
+
+    <div>
+        <p class="adtw"> Adding two Numbers</p>
+        <input id='one' type="text"> +
+        <input id='two' type="text">
+        <p id='sum'></p>
+        <br>
+        <!-- <input id =type="text"> -->
+    </div>
+
+    <div>
+        <h4>Keyborad events!</h4>
+        <input id='kb' placeholder="Press the key to check which key is pressed">
+    </div>
+
+    <div>
+        <h3 id='tdl'>To do List</h3>
+        <ul class='tdl'>
+            <li>
+                <span>Science</span>
+            </li>
+            <li>
+                <span>Technology</span>
+            </li>
+            <li>
+                <span>Engineering</span>
+            </li>
+            <li>
+                <span>Mathematics</span>
+            </li>
+        </ul>
+    </div>
+
+    <div>
+        <p class='v-sel'>Select the venue : </p>
+        <select name="" id="oc" onchange="sclt()">
+            <option value="Austria">Austria</option>
+            <option value="Australia">Australia</option>
+            <option value="Canada">Canada</option>
+            <option value="France">France</option>
+            <option value="India">India</option>
+            <option value="Germany">Germany</option>
+            <option value="United Kingdom">United Kingdom</option>
+            <option value="United states of America">United states of America</option>
+        </select>
+
+        <div>
+            <p id='goc' class='ocd'></p>
+        </div>
+        <div>
+            <input type="text" placeholder="Type here to check the onchange event" name="" id="onch" onchange="oncha()">
+            <p id='ochane'></p>
+        </div>
+
+        <div>
+            <!-- Onkeyup when the key is realsed -->
+            <span id='onf'>UpperCase while typing</span>
+            <input placeholder='Charecter changes to uppercase' id='on' onkeyup="onf()">
+        </div>
+
+        <div>
+            <p onclick="paf()" id='popid'>Popup Aler </p>
+            <button id='rm'>Don't like </button>
+        </div>
+
+        <br>
+        <span id='ot'>
+            <p>OuterHTML</p>
+        </span>
+    </div>
+
+    <!-- Span vs div -->
+
+    <div id='blo'>
+        <p>Block level Element</p>
+    </div>
+    <span id='in'>
+        inline element <br><br>
+    </span>
+    <!-- Toolpic -->
+    <span id=att title="Bad partice">Attributes doesn't require quotes from html 5! @bad parctise</span>
+    <p style='display:none' id='iht' style='font:bold'>Inner HTML Element</p>
+    <p id='ihe'></p>
+
+    <!-- Accept type of files from input -->
+    <div class='acpt'>
+        <form action="">
+            <input type="file" accept="image/*" name="" id="">
+            <button type="submit">Submit</button>
+        </form> <br><br>
+    </div>
+
+    <!-- Autocomplete used to load existing record to load or not  -->
+    <div>
+        <input type="email" placeholder="Email ID" autocomplete="on" name="" id="">
+        <input type="submit" value="Submit">
+    </div>
+    <!-- GetElementById will throw error when we script is loaded first it will not find any dom element,
+        when script are loaded after the dom null error will happen dom loaded first and js is intialized
+     -->
+    <script src="/js/DOM/dom.js"></script>
+
+</body>
+
+<p>After body tag</p>
+
+</html>
+
+=======
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>DOM</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="/CSS/dom.css">
+</head>
+ 
+<body>
+
+    <!-- <img src="/images/nat.jpg">  -->
+    <p id='tmid' onclick="tm()" style="color : rgb(224, 24, 84)"> Touch me</p>
+    <div class='uil'>
+        <ul>
+            <li id='na' onclick="lii('na','Vishnu')">Name</li>
+            <li id='or' onclick="lii('or','Capgemini')">organiztion</li>
+            <li id='de' onclick="lii('de','Software Engineer')">Designation</li>
+            <li id='ex' onclick="lii('ex',1)">Experiance</li>
+        </ul>
+    </div>
+
+
+    <div>
+        <p class="adtw"> Adding two Numbers</p>
+        <input id='one' type="text"> +
+        <input id='two' type="text">
+        <p id='sum'></p>
+        <br>
+        <!-- <input id =type="text"> -->
+    </div>
+
+    <div>
+        <h4>Keyborad events!</h4>
+        <input id='kb' placeholder="Press the key to check which key is pressed">
+    </div>
+
+    <div>
+        <h3 id='tdl'>To do List</h3>
+        <ul class='tdl'>
+            <li>
+                <span>Science</span>
+            </li>
+            <li>
+                <span>Technology</span>
+            </li>
+            <li>
+                <span>Engineering</span>
+            </li>
+            <li>
+                <span>Mathematics</span>
+            </li>
+        </ul>
+    </div>
+
+    <div>
+        <p class='v-sel'>Select the venue : </p>
+        <select name="" id="oc" onchange="sclt()">
+            <option value="Austria">Austria</option>
+            <option value="Australia">Australia</option>
+            <option value="Canada">Canada</option>
+            <option value="France">France</option>
+            <option value="India">India</option>
+            <option value="Germany">Germany</option>
+            <option value="United Kingdom">United Kingdom</option>
+            <option value="United states of America">United states of America</option>
+        </select>
+
+        <div>
+            <p id='goc' class='ocd'></p>
+        </div>
+        <div>
+            <input type="text" placeholder="Type here to check the onchange event" name="" id="onch" onchange="oncha()">
+            <p id='ochane'></p>
+        </div>
+
+        <div>
+            <!-- Onkeyup when the key is realsed -->
+            <span id='onf'>UpperCase while typing</span>
+            <input placeholder='Charecter changes to uppercase' id='on' onkeyup="onf()">
+        </div>
+
+        <div>
+            <p onclick="paf()" id='popid'>Popup Aler </p>
+            <button id='rm'>Don't like </button>
+        </div>
+        
+        <br>
+        <span id='ot'>
+            <p>OuterHTML</p>
+        </span>
+    </div>
+
+    <!-- Span vs div -->
+
+    <div id='blo'>
+        <p>Block level Element</p>
+    </div>
+    <span id='in'>
+        inline element <br><br>
+    </span>
+
+    <!-- GetElementById will throw error when we script is loaded first it will not find any dom element,
+        when script are loaded after the dom element null error will not happen
+     -->
+    <script src="/js/DOM/dom.js"></script>
+
+</body>
+
+<p>After body tag</p>
+
+</html>
+
+>>>>>>> Stashed changes
+<p> Hi</p>
