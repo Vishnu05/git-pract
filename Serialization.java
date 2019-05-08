@@ -30,3 +30,6 @@ public class Serialization {
 
  stash in comment 
 }
+
+stash is better when we write 
+

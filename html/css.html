@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/html.css">
+    <script src="/js/advfun1.js"></script>
+</head>
+
+<style>
+    .container {
+        size: 200px;
+        padding: 100px;
+        border-color: rgb(20, 243, 243);
+    }
+</style>
+
+<script>
+    let qs = document.querySelector('.container')
+    console.log(qs)
+</script>
+
+<body>
+
+    <div class="container">
+        <div class="pp">
+            <p>Hey CSS Styling</p>
+        </div>
+
+        <borders>
+            <p>Eminem </p>
+        </borders>
+
+        <input type=text placeholder="Type here" id='tp'>
+        <button onclick='clk()'> Click me</button>
+        <div id='pnd'>
+            <p id="cnd">
+                child node getting removed
+            </p>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
+<script>
+    // let noo= window.setInterval(funss(),10000)
+
+    // removing childnode awesome '.'
+    let cnnd = document.getElementById('cnd')
+    cnnd.parentNode.removeChild(cnnd);
+    console.log(cnnd)
+    //Node.removeChild()
+
+    //getting html tags
+    let tn = document.getElementsByTagName('input')
+    console.log(tn)
+
+    // css class or class 
+    let cn = document.getElementsByClassName('container')
+    console.log(cn)
+
+    //unique and specfic elements in dom
+    let fc = document.getElementById('pp')
+    // fc.style.color="blue"
+    function funss() {
+        alert('Window property');
+    }
+
+    //event listener
+   //let enl = document.addEventListener('hi', '')
+
+    let clk = function () {
+        return function () {
+            setTimeout(() => { //  setInterval(() => { // event loop and call stack every 2 sec alert will be waiting in callback and eventqueue
+                alert('go')
+            }, 2000);
+        }();
+    }
+    let tpy = document.getElementById('tp')
+    console.log(tpy)
+
+</script>
