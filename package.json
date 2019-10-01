@@ -1,0 +1,23 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gitig.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/vthamiz5/version.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/vthamiz5/version/issues"
+  },
+  "homepage": "https://gitlab.com/vthamiz5/version#readme",
+  "devDependencies": {
+    "webpack": "file:webpack",
+    "webpack-cli": "^3.3.4"
+  }
+}
