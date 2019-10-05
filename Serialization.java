@@ -9,27 +9,16 @@ public class Serialization {
 
         System.out.println();
 
-        Arrays ob=new Arrays();
-<<<<<<< HEAD
-        List<?> ob=new ArrayList<String>();
-        ob.add("String");
-=======
-<<<<<<< Updated upstream
+        // Arrays ob = new Arrays();
+        // Arrays.sort();
 
-        Arrays.util();
-        dkokpk
-=======
-        Arrays.sort();
->>>>>>> Stashed changes
-
-"json":"object"
->>>>>>> dd40c3172d221fa50b0639d0c69c7c6f50de23d2
+        // "json":"object"
     }
 
-    serialization
- stash in comment 
+    // serialization
+    // stash in comment
 }
 
-stash is better when we write 
+// stash is better when we write
 
-%hspU6C6Y7Ig
+// %hspU6C6Y7Ig
