@@ -17,7 +17,10 @@ public class Serialization {
 
     // serialization
     // stash in comment
+    
+    System.out.println("merge conflicts for the git and meregetool");
 }
+
 
 // stash is better when we write
 
