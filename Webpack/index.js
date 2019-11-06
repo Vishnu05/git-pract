@@ -4,9 +4,7 @@ function validate() {
 
     if (email.value == '') {
         alert('empty');
-    }
-
-
+    }   
 }
 //email.addEventListener('click', may)
 

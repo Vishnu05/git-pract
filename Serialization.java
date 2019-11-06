@@ -9,38 +9,26 @@ public class Serialization {
 
         System.out.println();
 
-        Arrays ob=new Arrays();
-<<<<<<< HEAD
-        List<?> ob=new ArrayList<String>();
-        ob.add("String");
-=======
-<<<<<<< Updated upstream
+        // Arrays ob = new Arrays();
+        // Arrays.sort();
 
-        Arrays.util();
-        dkokpk
-=======
-        Arrays.sort();
->>>>>>> Stashed changes
+        // "json":"object"
+    
 
-"json":"object"
->>>>>>> dd40c3172d221fa50b0639d0c69c7c6f50de23d2
+    // serialization
+    // stash in comment
+    
+    System.out.println("merge conflicts for the git and meregetool");
     }
-
-    serialization
-
-
-
-
-dfsdfsdf
- stash in comment 
 }
 
-stash is better when we write 
+// stash is better when we write 
 
-%hspU6C6Y7Ig
+// %hspU6C6Y7Ig
 
-console.log('git mergetool check')
+// console.log('git mergetool check')
 
 
+// stash is better when we write
 
-tomorrow need there fiber climb sort right flag reunion until jump zoo essence clock indicate airport quality ski pigeon audit jeans connect general myself
+// %hspU6C6Y7Ig
