@@ -13,11 +13,21 @@ public class Serialization {
         // Arrays.sort();
 
         // "json":"object"
-    }
+    
 
     // serialization
     // stash in comment
+    
+    System.out.println("merge conflicts for the git and meregetool");
+    }
 }
+
+// stash is better when we write 
+
+// %hspU6C6Y7Ig
+
+// console.log('git mergetool check')
+
 
 // stash is better when we write
 
