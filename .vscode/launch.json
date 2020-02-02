@@ -2,6 +2,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - statics",
+            "request": "launch",
+            "mainClass": "statics"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Serialization",
             "request": "launch",
             "mainClass": "Java.Basics.Serialization"
