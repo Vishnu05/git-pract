@@ -15,3 +15,6 @@ function name(name) {
 }
 
 console.log(name(name))
+
+let a = 'chrome dev tool'
+let a = 'syntax error'
