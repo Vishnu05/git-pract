@@ -1,7 +1,7 @@
-package Java.Basics;
+//package Java.Basics;
 
-import java.util.ArrayList;
-import java.util.Arrays;
+// import java.util.ArrayList;
+// import java.util.Arrays;
 
 public class Serialization {
 
