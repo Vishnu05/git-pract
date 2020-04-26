@@ -43,3 +43,4 @@ let objj = [1, 2, 3, 4, {
 }, 6]
 
 console.log(objj)
+
