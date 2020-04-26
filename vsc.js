@@ -36,3 +36,10 @@ today = 'Sunday'
 
 var today
 console.log(today)
+
+let objj = [1, 2, 3, 4, {
+    name: "string",
+    id: 3
+}, 6]
+
+console.log(objj)
