@@ -30,3 +30,9 @@ function hello(value) {
 }
 
 console.log(name('world'))
+
+//hoisting
+today = 'Sunday'
+
+var today
+console.log(today)
