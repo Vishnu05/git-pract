@@ -45,4 +45,8 @@ let objj = [1, 2, 3, 4, {
 console.log(objj)
 
 
+const arr = [1, 3, 5, 6, 6, 9]
 
+arr.filter((value) => {
+    console.log(value)
+})
