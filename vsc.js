@@ -50,3 +50,8 @@ const arr = [1, 3, 5, 6, 6, 9]
 arr.filter((value) => {
     console.log(value)
 })
+
+const http = require('http')
+
+console.log((http.get('http://www.google.com')))
+
