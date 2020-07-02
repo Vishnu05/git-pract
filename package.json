@@ -1,23 +1,19 @@
 {
-  "name": "y",
+  "name": "version",
   "version": "1.0.0",
-  "description": "",
-  "main": "gitig.js",
+  "description": "Experimenting git and github to understand better",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/vthamiz5/version.git"
+    "url": "git+https://github.com/vishnu05/git-pract.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://gitlab.com/vthamiz5/version/issues"
+    "url": "https://github.com/vishnu05/git-pract/issues"
   },
-  "homepage": "https://gitlab.com/vthamiz5/version#readme",
-  "devDependencies": {
-    "webpack": "file:webpack",
-    "webpack-cli": "^3.3.4"
-  }
+  "homepage": "https://github.com/vishnu05/git-pract#readme"
 }
