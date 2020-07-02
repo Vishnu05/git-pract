@@ -8,3 +8,7 @@ let git = document.getElementById('text')
 console.log(git)
 
 git.innerHTML = "Git Rebase"
+
+function textFunction() {
+    git.innerHTML = "GIT Rebase is powerful"
+}
