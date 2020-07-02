@@ -7,3 +7,4 @@ console.log("Rebase")
 let git = document.getElementById('text')
 console.log(git)
 
+git.innerHTML = "Git Rebase"
