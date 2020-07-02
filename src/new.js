@@ -13,6 +13,6 @@ function textFunction() {
     git.innerHTML = "GIT Rebase is powerful"
 }
 
-function mouse(){
-    
+function move(){
+    git.innerHTML = "mousemove function Git rebase"
 }
