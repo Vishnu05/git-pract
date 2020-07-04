@@ -16,3 +16,7 @@ function textFunction() {
 function move(){
     git.innerHTML = "mousemove function Git rebase"
 }
+
+function out() {
+    
+}
