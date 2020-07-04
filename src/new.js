@@ -21,6 +21,9 @@ function out() {
     git.innerHTML = "On mouseout Git Rebase is showing the dependency tree good"
 }
 
+let upp = document.getElementById('uppper')
+let uppar = document.getElementById('uppar')
 function up() {
-    
+    uppar.innerHTML = upp.value.toUpperCase()
+    upp.value = upp.value.toUpperCase()
 }
