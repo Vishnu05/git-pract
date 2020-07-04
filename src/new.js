@@ -20,3 +20,7 @@ function move(){
 function out() {
     git.innerHTML = "On mouseout Git Rebase is showing the dependency tree good"
 }
+
+function up() {
+    
+}
