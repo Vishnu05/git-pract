@@ -27,3 +27,8 @@ function up() {
     uppar.innerHTML = upp.value.toUpperCase()
     upp.value = upp.value.toUpperCase()
 }
+
+let clickVar = document.getElementById('')
+function clickFun() {
+    console.log('button is pressed')
+}
