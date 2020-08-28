@@ -13,7 +13,7 @@ function textFunction() {
     git.innerHTML = "GIT Rebase is powerful"
 }
 
-function move(){
+function move() {
     git.innerHTML = "mousemove function Git rebase"
 }
 
@@ -23,4 +23,16 @@ function out() {
 
 function image() {
     alert('image loaded successfully')
+}
+let upp = document.getElementById('uppper')
+let uppar = document.getElementById('uppar')
+function up() {
+    uppar.innerHTML = upp.value.toUpperCase()
+    upp.value = upp.value.toUpperCase()
+}
+
+let clickVar = document.getElementById('')
+
+function clickFun() {
+    console.log('button is pressed')
 }
